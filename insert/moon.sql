@@ -1,0 +1,28 @@
+INSERT INTO moon (
+    planet_id,
+    name,
+    diameter_in_km,
+    periapsis,
+    apoapsis,
+    description
+) VALUES 
+    (1, 'Moon', 3484.8, 362600, 405400, 'Earth''s Moon is the only place beyond Earth where humans have set foot.'),
+    (5, 'Ganymede', 5268.2, 1069200, 1071600, 'Jupiter''s moon Ganymede is proving to be a fascinating world. Not only is it the largest moon in our solar system, but NASA''s Hubble Space Telescope has found the best evidence yet for an underground saltwater ocean on Ganymede.'),
+    (5, 'Io', 3643.2, 420000, 423400, 'Io, or Jupiter I, is the innermost and third-largest of the four Galilean moons of the planet Jupiter.'),
+    (4, 'Phobos', 22533, 9234, 9517, 'Phobos, gouged and nearly shattered by a giant impact crater and beaten by thousands of meteorite impacts, is on a collision course with Mars.'),
+    (4, 'Deimos', 12.4, 23455, 23470, 'Deimos is the smaller of Mars'' two moons. Being only 9 by 7 by 6.8 miles in size (15 by 12 by 11 kilometers), Deimos whirls around Mars every 30 hours.'),
+    (7, 'Ariel', 1157.8, null, null, 'Ariel was discovered Oct. 24, 1851 by William Lassell, one of 19th century England''s grand amateur astronomers, who used the fortune he made in the brewery business to finance his telescopes.'),
+    (7, 'Oberon', 1522.8, null, null, 'Oberon was discovered in Jan. 11, 1787 by William Herschel.'),
+    (7, 'Puck', 162, null, null, 'Puck was discovered December 1985 in images sent back by the Voyager 2 spacecraft during its flyby of Uranus.'),
+    (7, 'Titania', 1576.8, null, null, 'Titania was discovered on Jan. 11, 1787 by British astronomer William Herschel.'),
+    (8, 'Halimede', 62, null, null, 'Halimede was discovered Aug. 14, 2002 by Matthew J. Holman, John J. Kavelaars, Tommy Grav, Wesley C. Fraser, and Dan Milisavljevic.'),
+    (8, 'Larissa', 194, null, null, 'Although it was initially spotted by H. Reitsema, W. Hubbard, L. Lebofsky, and D. Tholen through ground-based telescopes in 1981, Larissa was officially discovered in July 1989 by the Voyager 2 science team.'),
+    (8, 'Triton', 2706.8, null, null, 'Triton is the only known satellite in our solar system to have a surface made mainly of nitrogen ice'),
+    (8, 'Nereid', 340, null, null, 'Nereid was discovered on May 1, 1949 by Gerard P. Kuiper with a ground-based telescope.'),
+    (6, 'Aegaeon', 0.12, null, null, 'Scientists imaged the moonlet on Aug. 15, 2008, and then confirmed its presence by finding it in two earlier images.'),
+    (6, 'Dione', 1122.8, null, null, 'Giovanni Cassini discovered Dione on March 21, 1684.'),
+    (6, 'Atlas', 30.2, null, null, 'Atlas was discovered in 1980 by R. Terrile and the Voyager 1 team from photographs taken during its encounter with Saturn.'),
+    (6, 'Calypso', 21.4, null, null, 'Calypso was discovered by D. Pascu, P.K. Seidelmann, W. Baum, and D. Currie in March 1980 using a ground-based telescope.'),
+    (5, 'Callisto', 4820.6, 1869000, 1897000, 'Callisto is the most heavily cratered object in our solar system.'),
+    (5, 'Europa', 3121.6, 664862, 676938, 'Europa might be the best place to look for environments where life could exist.'),
+    (9, 'Charon', 1212, 19587, 19595, 'At half the size of Pluto, Charon is the largest of Pluto''s moons and the largest known satellite relative to its parent body.');
